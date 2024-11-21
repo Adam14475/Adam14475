@@ -1,6 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/Reanimation.lua/main/Main/Main.lua"))()
-
-
 Configuration = {}
 Configuration.ReturnOnDeath = true
 Configuration.Flinging = true
