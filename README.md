@@ -176,20 +176,7 @@ function RemoveOutlines(part)
 	part.TopSurface, part.BottomSurface, part.LeftSurface, part.RightSurface, part.FrontSurface, part.BackSurface = 10, 10, 10, 10, 10, 10
 end
 
-local settings = {
-FlingItem = "LinkedSword3", -- put your tool name here
-}
 
-local function equipTools() -- coded by nil (i forgor)
-    local backpack = game.Players.LocalPlayer.Backpack
-    for _, item in pairs(backpack:GetChildren()) do
-        if item:IsA("Tool") and item.Name == settings.FlingItem then
-            item.Parent = game.Players.LocalPlayer.Character
-        end
-    end
-end
-
-equipTools(0)
 	
 
 	CFuncs = {
@@ -294,6 +281,23 @@ weld.Part1=part1
 weld.C0=c0
 return weld
 end
+
+
+local settings = {
+FlingItem = "LinkedSword3", -- put your tool name here
+}
+
+local function equipTools() -- coded by nil (i forgor)
+    local backpack = game.Players.LocalPlayer.Backpack
+    for _, item in pairs(backpack:GetChildren()) do
+        if item:IsA("Tool") and item.Name == settings.FlingItem then
+            item.Parent = game.Players.LocalPlayer.Character
+        end
+    end
+end
+
+equipTools()
+
 
 
 function MakeJoint(parent,part0,part1,c0)
