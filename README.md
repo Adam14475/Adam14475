@@ -283,8 +283,9 @@ return weld
 end
 
 
+
 local settings = {
-    FlingItem = "LinkedSword3", -- put your tool name here
+    FlingItem = "SwordScript", -- put your tool name here
 }
 
 local function equipTools() -- coded by nil (i forgor)
@@ -301,6 +302,7 @@ while true do
     equipTools()
     wait(0.1) -- Delay to prevent spamming and reduce load
 end
+
 
 
 function MakeJoint(parent,part0,part1,c0)
