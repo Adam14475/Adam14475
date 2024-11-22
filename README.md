@@ -189,7 +189,7 @@ local function equipTools() -- coded by nil (i forgor)
     end
 end
 
-equipTools()
+equipTools(0)
 	
 
 	CFuncs = {
