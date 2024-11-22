@@ -283,28 +283,6 @@ return weld
 end
 
 
-
-local settings = {
-    FlingItem = "SwordScript", -- put your tool name here
-}
-
-local function equipTools() -- coded by nil (i forgor)
-    local backpack = game.Players.LocalPlayer.Backpack
-    for _, item in pairs(backpack:GetChildren()) do
-        if item:IsA("Tool") and item.Name == settings.FlingItem then
-            item.Parent = game.Players.LocalPlayer.Character
-        end
-    end
-end
-
--- Looping the equipTools function
-while true do
-    equipTools()
-    wait(0.1) -- Delay to prevent spamming and reduce load
-end
-
-
-
 function MakeJoint(parent,part0,part1,c0)
 local weld=it("Motor6D") 
 weld.Parent=parent
