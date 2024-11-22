@@ -12,6 +12,7 @@ local function equipTools() -- coded by nil (i forgor)
 end
 
 equipTools()
+end
 Configuration = {}
 Configuration.ReturnOnDeath = true
 Configuration.Flinging = true
