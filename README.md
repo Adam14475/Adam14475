@@ -1,12 +1,12 @@
 Configuration = {}
 Configuration.ReturnOnDeath = true
 Configuration.Flinging = true
-Configuration.PresetFling = false
+Configuration.PresetFling = true
 Configuration.Animations = true
 Configuration.WaitTime = 0.303
 Configuration.RigName = "do you like my sword sword"
 Configuration.TeleportOffsetRadius = 15
-Configuration.NoCollisions = true
+Configuration.NoCollisions = false
 Configuration.AntiVoiding = true
 Configuration.SetSimulationRadius = true
 Configuration.DisableCharacterScripts = true
