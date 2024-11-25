@@ -1,7 +1,7 @@
 Configuration = {}
 Configuration.ReturnOnDeath = true
 Configuration.Flinging = true
-Configuration.PresetFling = false
+Configuration.PresetFling = true
 Configuration.Animations = true
 Configuration.WaitTime = 0.303
 Configuration.RigName = "do you like my sword sword"
