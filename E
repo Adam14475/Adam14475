@@ -31,10 +31,31 @@ Configuration.Hats = {
         {Texture = "14768664565", Mesh = "14768666349", Name = "Black", Offset = CFrame.identity}
     },
 }
+local Module = game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Krypton/main/Module.luau")
 
---e
---a
---e
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Uncategorized-Scripts/main/LoadLib.lua"))()
+
+loadstring(Module)()
+
+
+local TweenService = game:GetService("TweenService")
+local RbxUtility = LoadLibrary("RbxUtility")
+local Create = RbxUtility.Create
+
+MaskTextureId = 124337542 --124337542 2340547251
+
+
+owner=game.Players.LocalPlayer
+Player = game.Players.LocalPlayer
+script.Parent = Player.PlayerGui
+ZTfade=false 
+ZT=false
+
+while Player.Character == nil do wait()
+	
+end
+
+
 Player=game:GetService("Players").LocalPlayer
 Character=Player.Character
 Character.Humanoid.Name = "vereus"
