@@ -713,15 +713,7 @@ function Reanimate()
 			taskwait()
 		end,
 	}
-]]
-workspace=game.Workspace
-local reanimation = loadstring(game:HttpGet("https://gist.githubusercontent.com/pepfre12/a6804484c857aaa92a673d0db68d4ec8/raw/6efa0f57bfd6ab503d99ee8cc26e30c804446009/oblopa"))()
-local FDless = reanimation.start({
-revokeownerships=true,
-simulationradius={
-enabled=true,
-value=9e9
-},
+
 	Emperean.Start({
 		Accessories = {
 			--  Free Rig
