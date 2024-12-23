@@ -691,7 +691,7 @@ Emperean.Start({
           -- IL Rig
 	{ Blacklist = true, Name = "Headed", AlternativeName = "ill watch as you bleed", MeshId = "17375312569", TextureId = "17375312612", AllowAlternativeCFrame = false, CoordinateFrame = CFrameAngles(0, 3.15, 0), AlternativeCFrame = CFrameidentity },
 	{ Blacklist = true, Name = "Hand1", AlternativeName = "for i warned you and warned you", MeshId = "14763456956", TextureId = "14253035221", AllowAlternativeCFrame = false, CoordinateFrame = CFrameAngles(0, 0, -1.57), AlternativeCFrame = CFrameidentity },
-	{ Blacklist = true, Name = "Hand2", AlternativeName = "but you did not heed", MeshId = "17345242336", TextureId = "17345250641", AllowAlternativeCFrame = false, CoordinateFrame = CFrameAngles(-1.57, 0, 1.57), AlternativeCFrame = CFrameidentity },	
+	{ Blacklist = true, Name = "Hand2", AlternativeName = "but you did not heed", MeshId = "17345242336", TextureId = "17345250641", AllowAlternativeCFrame = false, CoordinateFrame = CFrameAngles(0, 0, -1.57), AlternativeCFrame = CFrameidentity },	
 	{ Blacklist = true, Name = "Hand3", AlternativeName = "its your fault and hers too", MeshId = "14500656581", TextureId = "14500658147", AllowAlternativeCFrame = false, CoordinateFrame = CFramenew(0, 0, 2) *  CFrameAngles(-1.57, 0, 1.57), AlternativeCFrame = CFrameidentity },	
 	{ Blacklist = true, Name = "Hand4", AlternativeName = "but i did what i did it was all for you, aw shucks!", MeshId = "14500686852", TextureId = "14500688203", AllowAlternativeCFrame = false, CoordinateFrame = CFramenew(0, 0, 2) *  CFrameAngles(-1.57, 0, 1.57), AlternativeCFrame = CFrameidentity },	
 
