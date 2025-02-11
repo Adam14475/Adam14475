@@ -551,4 +551,4 @@ Empyrean = Start({
 	TeleportRadius = 12
 })
 local Rig = Empyrean.Rig
-loadstring(game:HttpGet("https://pastebin.com/raw/1jJ6xDNS"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/i344cmpD",true))()
