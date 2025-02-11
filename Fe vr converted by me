@@ -538,7 +538,7 @@ Empyrean = Start({
 	},
 	ApplyDescription = true,
 	BreakJointsDelay = 0.251,
-	ChangePrimaryPart = true,
+	ChangePrimaryPart = false,
 	DisableCharacterCollisions = true,
 	ParentCharacter = true,
 	RigSize = 1,
