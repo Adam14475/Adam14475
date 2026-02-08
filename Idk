@@ -1,0 +1,24 @@
+local ClusterPacketCache = game:GetService("ClusterPacketCache")
+
+local function JOHNCUBE()
+spawn(function()
+local packet_cache = caetsploit.network.bind(ClusterPacketCache)
+
+for i = 1, 1000 do  
+        packet_cache:AddPacket(i, 0, 0, 0, 0, 0, 0)  
+    end  
+      
+    for i = 1, 10000 do  
+        local packet = packet_cache:GetPacket(i)  
+        packet.Data = string.rep("A", 1000000)  
+        packet.Flags = 0x1  
+        caetsploit.network.enqueue_packet(packet)  
+    end  
+end)
+
+end
+
+while true do
+JOHNCUBE()
+wait()
+end
